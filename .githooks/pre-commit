@@ -1,0 +1,5 @@
+#!/bin/sh
+# Refuses a commit whose Lus files are unformatted or have check errors.
+set -e
+lus fmt --check .
+lus check .

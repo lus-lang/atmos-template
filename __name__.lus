@@ -1,0 +1,18 @@
+--- One sentence that says what __name__ does.
+---
+--- A paragraph that says when to reach for __name__ and what it returns.
+--- @package __name__
+--- @version 0.1.0
+--- @lus __line__
+--- @license __license__
+
+local __name__ = {}
+
+--- Greets someone by name.
+--- @param name string The name to greet.
+--- @return string The greeting.
+function __name__.greet(name)
+    return `hello, $name`
+end
+
+return __name__

@@ -1,0 +1,10 @@
+#!/bin/sh
+# Runs the checks of atmosphere before a push, or lus check and lus test
+# when atmos is not installed.
+set -e
+if command -v atmos >/dev/null 2>&1; then
+    atmos check
+else
+    lus check .
+    lus test
+fi
