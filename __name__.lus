@@ -1,6 +1,6 @@
 --- One sentence that says what __name__ does.
 ---
---- A paragraph that says when to reach for __name__ and what it returns.
+--- A paragraph that says when to use __name__ and what it returns.
 --- @package __name__
 --- @version 0.1.0
 --- @lus __line__
