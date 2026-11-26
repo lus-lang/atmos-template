@@ -1,21 +1,9 @@
-# __name__
+# [__name__](https://atmosp.here/__line__/__name__)
 
 One sentence that says what __name__ does.
 
-The following example greets a user by name.
+[Instructions for using __name__ can be found here.](https://atmosp.here/__line__/__name__)
 
-```lus nocheck
-local __name__ = require("https://atmosp.here/__line__/__name__.lus")
-print(__name__.greet("Ada"))
-```
+## License
 
-## Development
-
-Run these commands from the root of the repository.
-
-```sh
-lus test
-atmos check
-```
-
-A signed commit on `main` publishes to `unstable`. Once `@version` reaches 1.0.0, `atmos publish` tags and pushes a release for Lus __line__. Versions below 1.0.0, such as the starting version 0.1.0, publish to `unstable` only.
+__name__ is licensed under the __license__ license. [For more details, consult the license here.](LICENSE)

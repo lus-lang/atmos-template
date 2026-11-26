@@ -1,6 +1,13 @@
 --- One sentence that says what __name__ does.
 ---
 --- A paragraph that says when to use __name__ and what it returns.
+---
+--- The following example greets a user by name.
+---
+--- ```lus nocheck
+--- local __name__ = require("https://atmosp.here/__line__/__name__.lus")
+--- print(__name__.greet("Ada"))  --> hello, Ada
+--- ```
 --- @package __name__
 --- @version 0.1.0
 --- @lus __line__
